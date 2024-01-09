@@ -1,0 +1,697 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header nav {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .eatwell {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+body header nav .navbarText {
+  justify-content: flex-end;
+  align-items: center;
+}
+body header nav .navbarText ul li a {
+  color: black;
+  transition: 0.4s;
+  font-size: 12px;
+  font-weight: 600;
+}
+body header nav .navbarText ul li a:hover {
+  color: orange;
+  transition: 0.4s;
+  font-size: 12px;
+  font-weight: 600;
+}
+body header nav .navbarText ul li .home {
+  color: orange;
+  font-size: 12px;
+  font-weight: 600;
+}
+body header nav .navbarText ul li .wishlist i {
+  transition: 0.3s;
+  color: black;
+}
+body header nav .navbarText ul li .wishlist:hover i {
+  transition: 0.4s;
+  color: red;
+}
+body main #secOne {
+  padding: 80px 0;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+body main #secOne .textContent h2 {
+  font-size: 40px;
+  color: black;
+  font-weight: 700;
+}
+body main #secOne .textContent p {
+  font-size: 20px;
+  color: orangered;
+  font-weight: 600;
+}
+body main #secOne .fixedContent {
+  position: fixed;
+  right: 5px;
+  transition: 0.3s;
+  top: 300px;
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  gap: 5px;
+  width: 30px;
+  height: 100px;
+}
+body main #secOne .fixedContent a .home {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent a .home:hover {
+  color: blue;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent a .shop {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent a .shop:hover {
+  color: darkcyan;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent a .heart {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent a .heart:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover {
+  box-shadow: 0 0 10px 2px silver;
+  position: fixed;
+  transition: 0.3s;
+  right: 5px;
+  top: 300px;
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  gap: 5px;
+  width: 30px;
+  height: 100px;
+}
+body main #secOne .fixedContent:hover a .home {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover a .home:hover {
+  color: blue;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover a .shop {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover a .shop:hover {
+  color: darkcyan;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover a .heart {
+  color: black;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .fixedContent:hover a .heart:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body main #secOne .shoppify {
+  background-color: rgb(1, 75, 1);
+  position: fixed;
+  transition: 0.4s;
+  right: 5px;
+  top: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+}
+body main #secOne .shoppify a i {
+  color: bisque;
+  transition: 0.3s;
+  font-size: 18px;
+}
+body main #secOne .shoppify a i:hover {
+  color: goldenrod;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body main #secOne .shoppify:hover {
+  box-shadow: 0 0 10px 2px green;
+  transition: 0.4s;
+  background-color: rgb(1, 75, 1);
+  position: fixed;
+  right: 5px;
+  top: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  gap: 5px;
+  width: 40px;
+  height: 40px;
+}
+body main #secOne .shoppify:hover a i {
+  color: bisque;
+  transition: 0.3s;
+  font-size: 18px;
+}
+body main #secOne .shoppify:hover a i:hover {
+  color: goldenrod;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body main #secOne .secContent {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+body main #secOne .secContent .contentOne .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 220px;
+  border: 1px inset gray;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  transition: 0.4s;
+}
+body main #secOne .secContent .contentOne .content img {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main #secOne .secContent .contentOne .content h2 {
+  font-size: 20px;
+  color: orangered;
+}
+body main #secOne .secContent .contentOne .content p {
+  font-size: 14px;
+  font-weight: 700;
+}
+body main #secOne .secContent .contentOne .content .basket {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content .basket button {
+  background-color: orangered;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  border: none;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  border-radius: 10px;
+  transition: 0.4s;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content .basket button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content .basket i {
+  color: burlywood;
+}
+body main #secOne .secContent .contentOne .content .basket i:hover {
+  color: rgb(255, 0, 0);
+}
+body main #secOne .secContent .contentOne .content:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 220px;
+  border: 1px inset orangered;
+  border-radius: 10px;
+  background-color: rgb(235, 235, 235);
+  transition: 0.4s;
+}
+body main #secOne .secContent .contentOne .content:hover img {
+  margin-top: 20px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main #secOne .secContent .contentOne .content:hover h2 {
+  font-size: 20px;
+  color: orangered;
+}
+body main #secOne .secContent .contentOne .content:hover p {
+  font-size: 14px;
+  font-weight: 700;
+}
+body main #secOne .secContent .contentOne .content:hover .basket {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content:hover .basket button {
+  background-color: orangered;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content:hover .basket button:hover {
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main #secOne .secContent .contentOne .content:hover .basket i {
+  color: burlywood;
+}
+body main #secOne .secContent .contentOne .content:hover .basket i:hover {
+  color: rgb(255, 0, 0);
+}
+body footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .content p {
+  padding-top: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body header nav {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body header nav .eatwell {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+  }
+  body header nav .navbarText {
+    justify-content: flex-end;
+    align-items: center;
+  }
+  body header nav .navbarText ul li a {
+    color: black;
+    transition: 0.4s;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  body header nav .navbarText ul li a:hover {
+    color: orange;
+    transition: 0.4s;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  body header nav .navbarText ul li .home {
+    color: orange;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  body header nav .navbarText ul li .wishlist i {
+    transition: 0.3s;
+    color: black;
+  }
+  body header nav .navbarText ul li .wishlist:hover i {
+    transition: 0.4s;
+    color: red;
+  }
+  body main #secOne {
+    padding: 40px 0;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .textContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  body main #secOne .textContent h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+  }
+  body main #secOne .textContent p {
+    text-align: center;
+    width: 250px;
+    font-size: 12px;
+    color: orangered;
+    font-weight: 600;
+  }
+  body main #secOne .fixedContent {
+    position: fixed;
+    right: 5px;
+    transition: 0.3s;
+    top: 300px;
+    background-color: silver;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    gap: 5px;
+    width: 30px;
+    height: 100px;
+  }
+  body main #secOne .fixedContent a .home {
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .fixedContent a .home:hover {
+    color: blue;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .fixedContent a .shop {
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .fixedContent a .shop:hover {
+    color: darkcyan;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .fixedContent a .heart {
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .fixedContent a .heart:hover {
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  body main #secOne .shoppify {
+    background-color: rgb(1, 75, 1);
+    position: fixed;
+    transition: 0.4s;
+    right: 5px;
+    top: 410px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+  }
+  body main #secOne .shoppify a i {
+    color: bisque;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+  body main #secOne .shoppify a i:hover {
+    color: goldenrod;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  body main #secOne .secContent {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  body main #secOne .secContent .contentOne .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 220px;
+    border: 1px inset gray;
+    border-radius: 10px;
+    background-color: ghostwhite;
+    transition: 0.4s;
+  }
+  body main #secOne .secContent .contentOne .content img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body main #secOne .secContent .contentOne .content h2 {
+    font-size: 20px;
+    color: orangered;
+  }
+  body main #secOne .secContent .contentOne .content p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  body main #secOne .secContent .contentOne .content .basket {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content .basket button {
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    border: none;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+    transition: 0.4s;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content .basket button:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.4s;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content .basket i {
+    color: burlywood;
+  }
+  body main #secOne .secContent .contentOne .content .basket i:hover {
+    color: rgb(255, 0, 0);
+  }
+  body main #secOne .secContent .contentOne .content:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 220px;
+    border: 1px inset orangered;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 235);
+    transition: 0.4s;
+  }
+  body main #secOne .secContent .contentOne .content:hover img {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body main #secOne .secContent .contentOne .content:hover h2 {
+    font-size: 20px;
+    color: orangered;
+  }
+  body main #secOne .secContent .contentOne .content:hover p {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  body main #secOne .secContent .contentOne .content:hover .basket {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content:hover .basket button {
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content:hover .basket button:hover {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main #secOne .secContent .contentOne .content:hover .basket i {
+    color: burlywood;
+  }
+  body main #secOne .secContent .contentOne .content:hover .basket i:hover {
+    color: rgb(255, 0, 0);
+  }
+  body footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body footer .content {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  body footer .content p {
+    font-size: 10px;
+    padding-top: 20px;
+    color: white;
+    font-weight: 600;
+  }
+}
